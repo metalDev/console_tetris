@@ -249,6 +249,7 @@ int main()
 // I didn't exactly copy and paste this code from the github source, but I did pretty much copy as I followed along to the YouTube video
 // 'Code-It-Yourself! Tetris - Programming from Scratch (Quick and Simple C++) by javidx9
 // https://www.youtube.com/watch?v=8OK8_tHeCIA
+// https://github.com/OneLoneCoder/videos/blob/master/OneLoneCoder_Tetris.cpp
 // So, I'm going to post the license from the github file below, anyway, to avoid any nastiness.
 
 /*
