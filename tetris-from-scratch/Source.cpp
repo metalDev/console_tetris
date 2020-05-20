@@ -54,45 +54,13 @@ bool DoesPieceFit(int nTetromino, int nRotation, int nPosX, int nPosY)
 int main()
 {
 	// Create assets
-	tetromino[0].append(L"..X.");
-	tetromino[0].append(L"..X.");
-	tetromino[0].append(L"..X.");
-	tetromino[0].append(L"..X.");
-
-	tetromino[1].append(L"..X.");
-	tetromino[1].append(L".XX.");
-	tetromino[1].append(L".X..");
-	tetromino[1].append(L"....");
-
-	tetromino[2].append(L".X..");
-	tetromino[2].append(L".XX.");
-	tetromino[2].append(L"..X.");
-	tetromino[2].append(L"....");
-
-	tetromino[3].append(L"....");
-	tetromino[3].append(L".XX.");
-	tetromino[3].append(L".XX.");
-	tetromino[3].append(L"....");
-
-	tetromino[4].append(L"..X.");
-	tetromino[4].append(L".XX.");
-	tetromino[4].append(L"..X.");
-	tetromino[4].append(L"....");
-
-	tetromino[5].append(L"....");
-	tetromino[5].append(L".XX.");
-	tetromino[5].append(L"..X.");
-	tetromino[5].append(L"..X.");
-
-	tetromino[6].append(L"....");
-	tetromino[6].append(L".XX.");
-	tetromino[6].append(L".X..");
-	tetromino[6].append(L".X..");
-
-	//0 deg rotation: i=y*w+x
-	//90 deg rotation: i=12+y - (x*4)
-	//180 deg rotation: i=15 - (y*4) - x
-	//270 deg rotation: i=3+y(x*4)
+	tetromino[0].append(L"..X...X...X...X.");
+	tetromino[1].append(L"..X..XX..X......");
+	tetromino[2].append(L".X...XX...X.....");
+	tetromino[3].append(L".....XX..XX.....");
+	tetromino[4].append(L"..X..XX...X.....");
+	tetromino[5].append(L".....XX...X...X.");
+	tetromino[6].append(L".....XX..X...X..");
 
 	pField = new unsigned char[nFieldWidth * nFieldHeight]; // Create play field buffer
 	for (int x = 0; x < nFieldWidth; x++) // Board Boundary
